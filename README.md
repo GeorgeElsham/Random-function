@@ -24,3 +24,9 @@ for _ in 1...10 {
     print(random(from: 1, to: 10))
 }
 ```
+
+# Note:
+
+`Swift` now supports getting random numbers (linearly) by using `Type.random(in: Range)`:
+
+let randomNumber = Float.random(in: -1...1)
