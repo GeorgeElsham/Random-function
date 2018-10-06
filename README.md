@@ -29,5 +29,6 @@ for _ in 1...10 {
 
 `Swift` now supports getting random numbers (linearly) by using `Type.random(in: Range)`:
 
-```let randomNumber = Float.random(in: -1...1)
+```Swift
+let randomNumber = Float.random(in: -1...1)
 ```
